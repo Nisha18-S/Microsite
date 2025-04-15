@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header, section, footer {
+  padding: 40px;
+  text-align: center;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Optional: Reduce padding on small screens */
+@media (max-width: 600px) {
+  header, section, footer {
+    padding: 20px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
